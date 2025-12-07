@@ -1,0 +1,53 @@
+name: Feature Request
+description: Suggest a new interior, improvement, or feature for Project Los Santos.
+title: "[FEATURE] <short description>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: feature_name
+    attributes:
+      label: Feature Name
+      placeholder: "Example: Add interior to the Vespucci Beach lifeguard station"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Feature
+      placeholder: "Explain what the feature is and why it should be added."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Why Is This Useful?
+      placeholder: "Describe the benefit for players, servers, or overall gameplay."
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements or Dependencies
+      placeholder: "List any dependencies, assets needed, external scripts, etc. Leave empty if none."
+    validations:
+      required: false
+
+  - type: textarea
+    id: visual_reference
+    attributes:
+      label: Visual or Concept References (optional)
+      description: "Links to images, sketches, or real-life references."
+      placeholder: "Image URLs, concept art, inspiration links, etc."
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation_notes
+    attributes:
+      label: Additional Notes
+      placeholder: "Any technical details, ideas, or suggestions for implementation."
+    validations:
+      required: false
