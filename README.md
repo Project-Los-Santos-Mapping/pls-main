@@ -55,9 +55,8 @@ PLS is community-driven - all contributions are welcome!
 
 pls-main/
 ├── maps/              # All interiors & map edits
-├── assets/            # Textures, models, props
-├── docs/              # Documentation & reference
-├── scripts/           # Optional helpers / tools
+├── assets/            # Textures
+├── props/             # Props for our maps, mostly collectives
 └── LICENSE
 
 ```
