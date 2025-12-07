@@ -116,5 +116,18 @@ GitHub contributions always welcome.
 Thanks to everyone helping build Los Santos into a fully explorable city!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or edit this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SSnowly"><img src="https://avatars.githubusercontent.com/u/172014031?v=4?s=100" width="100px;" alt="Snowly"/><br /><sub><b>Snowly</b></sub></a><br /><a href="https://github.com/Project-Los-Santos-Mapping/pls-main/commits?author=SSnowly" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
