@@ -98,7 +98,8 @@ Community voting helps prioritize additions.
 
 
 ## 🚧 Roadmap
-### You can check our roadmap on discord! [Click Here!](https://discord.gg/bQ8gcXxWWT) 
+### You can check our roadmap on github here: [Link](ROADMAP.md)
+### For more frequent updates join our discord! [Click Here!](https://discord.gg/bQ8gcXxWWT) 
 
 
 ## ❤️ Credits
