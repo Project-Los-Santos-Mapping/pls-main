@@ -1,0 +1,79 @@
+name: Bug Report
+description: Report a problem with any Project Los Santos map.
+title: "[BUG] <short description>"
+labels: ["bug"]
+body:
+  - type: input
+    id: map_name
+    attributes:
+      label: Map Name
+      placeholder: "Which map/interior are you having an issue with?"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: "Example: Coordinates/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Describe the Issue
+      placeholder: "Explain what went wrong. Missing props, performance issues, invisible walls, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: machine
+    attributes:
+      label: System Specs
+      description: "Hardware of the system you are using."
+      placeholder: |
+        CPU:
+        GPU:
+        RAM:
+        Storage:
+    validations:
+      required: true
+
+  - type: textarea
+    id: client_mods
+    attributes:
+      label: Client Modifications
+      description: "List any mods that could affect visuals or performance."
+      placeholder: "ReShade, graphics mods, map mods, handling mods, etc."
+    validations:
+      required: false
+
+  - type: textarea
+    id: server_mods
+    attributes:
+      label: Server-Side Modifications
+      description: "List any resources that modify textures, lighting, or maps."
+      placeholder: "Example: CoreFX edits, lighting packs, map streaming changes..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction Steps
+      placeholder: |
+        1. Go to location...
+        2. Enter building...
+        3. Performance drops / missing props / crash etc.
+    validations:
+      required: true
+
+  - type: input
+    id: logs
+    attributes:
+      label: Error Logs
+      description: "Upload logs to a paste site such as pastebin.com or mclo.gs"
+      placeholder: "Pastebin URL"
+    validations:
+      required: true
